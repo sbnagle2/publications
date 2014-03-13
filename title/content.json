@@ -1,0 +1,93 @@
+{
+  "id": "2702df01f978036c9a914dd1e9a145af",
+  "schema": [
+    "substance-article",
+    "0.3.0"
+  ],
+  "nodes": {
+    "document": {
+      "id": "document",
+      "type": "document",
+      "views": [
+        "content",
+        "figures",
+        "citations"
+      ],
+      "guid": "2702df01f978036c9a914dd1e9a145af",
+      "creator": "",
+      "title": "Title",
+      "authors": [
+        "contributor_1"
+      ],
+      "abstract": "",
+      "created_at": "2014-03-13T16:09:08.823Z",
+      "updated_at": "2014-03-13T16:11:10.612Z",
+      "published_on": "2014-03-13T16:11:10.609Z"
+    },
+    "cover": {
+      "id": "cover",
+      "type": "cover",
+      "authors": []
+    },
+    "content": {
+      "type": "view",
+      "id": "content",
+      "nodes": [
+        "cover",
+        "text1"
+      ]
+    },
+    "figures": {
+      "type": "view",
+      "id": "figures",
+      "nodes": [
+        "figure_23c962b133e12a590527e2f939112376"
+      ]
+    },
+    "remarks": {
+      "type": "view",
+      "id": "remarks",
+      "nodes": []
+    },
+    "errors": {
+      "type": "view",
+      "id": "errors",
+      "nodes": []
+    },
+    "info": {
+      "type": "view",
+      "id": "info",
+      "nodes": [
+        "contributor_1"
+      ]
+    },
+    "text1": {
+      "type": "text",
+      "id": "text1",
+      "content": "Blah blah blah "
+    },
+    "contributor_1": {
+      "type": "contributor",
+      "id": "contributor_1",
+      "name": "Sarah Nagle",
+      "role": "author",
+      "organization": "ACME",
+      "image": "",
+      "email": "me@example.com"
+    },
+    "text_a34685a82e55cf0fbb95053fcd2fab53": {
+      "type": "text",
+      "id": "text_a34685a82e55cf0fbb95053fcd2fab53",
+      "source_id": "",
+      "content": "Enter caption"
+    },
+    "figure_23c962b133e12a590527e2f939112376": {
+      "type": "figure",
+      "id": "figure_23c962b133e12a590527e2f939112376",
+      "image": "",
+      "image_url": "",
+      "label": "Figure 1",
+      "caption": "text_a34685a82e55cf0fbb95053fcd2fab53"
+    }
+  }
+}
